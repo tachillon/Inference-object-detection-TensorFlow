@@ -44,6 +44,9 @@ docker run --rm -it -v <path/to/workdir>:/tmp <container_name>:<tag> python3 /tm
 ```
 inference_on_images.py/
 ├─ resultats/
+├─ model/
+│  ├─ frozen_inference_graph.pb
+│  ├─ label.pbtxt
 ├─ images/
 │  ├─ img1.jpg
 │  ├─ img2.jpg
